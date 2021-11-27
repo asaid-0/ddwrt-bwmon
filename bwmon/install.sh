@@ -32,7 +32,7 @@ chmod +x "$SCRIPT_DIR/www/bwreset.cgi"
 # 	mkdir /jffs/etc
 # fi
 
-mkdir ./temp/etc
+mkdir -p ./temp/etc
 
 
 cp "$SCRIPT_DIR/etc/lighttpd.conf" "./temp/etc/lighttpd.conf"
